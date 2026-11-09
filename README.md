@@ -55,6 +55,6 @@ GitHub Pages용 정적 페이지입니다. 빌드나 외부 라이브러리가 �
 
 - TIPA HR Contact Finder: https://jinokim94.github.io/userapi_extension/PrivacyPolicy/
 - 원본: `jinokim94/userapi_extension`, `browser_extensions/userapi_extension/PRIVACY_POLICY.md`
-- 원본 blob SHA: `6159c5b25094b5908ddbb3a49e38df8ea6806ae2`
-- 원본을 바탕으로 게시용 문체로 편집한 문서입니다. 원본 변경 시 게시본도 별도로 검토·갱신해야 합니다.
+- 원본 blob SHA: `8cd75d0f49ded86c699db5cb0dd5b5414f86aae0`
+- 최신 원본 내용을 그대로 게시한 문서입니다. 원본 변경 시 게시본도 별도로 검토·갱신해야 합니다.
 - 메인페이지에 링크를 추가하지 않고 직접 URL로 접근하도록 게시했습니다.
