@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex">
+  <title>[프로젝트 이름] — [문서 제목]</title>
+  <link rel="stylesheet" href="../../style.css">
+</head>
+<body>
+  <a class="skip" href="#main">본문으로 이동</a>
+  <header><a class="brand" href="../../">jinokim94<span> / personal site</span></a></header>
+  <main id="main" class="document">
+    <p class="eyebrow">[프로젝트 이름]</p>
+    <h1>[문서 제목]</h1>
+    <p class="meta">시행일: [YYYY-MM-DD] · 최종 수정일: [YYYY-MM-DD]</p>
+    <p class="draft">작성용 틀입니다. 실제 내용을 작성한 뒤 이 안내를 삭제하세요.</p>
+    <section>
+      <h2>[항목 제목]</h2>
+      <p>[프로젝트 소개 또는 사용법을 작성하세요.]</p>
+    </section>
+  </main>
+  <footer><span>jinokim94</span><a href="../../">홈으로</a></footer>
+</body>
+</html>
