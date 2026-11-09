@@ -50,3 +50,11 @@ GitHub Pages용 정적 페이지입니다. 빌드나 외부 라이브러리가 �
 문서 틀에는 실제 개인정보 처리에 대한 주장을 넣지 않았습니다. 프로젝트마다 직접 확정한 내용을 작성하세요. 필요 없는 소개·매뉴얼은 만들지 않아도 됩니다. 프로젝트 폴더 이름은 공개 URL의 일부이므로 게시 후에는 유지하는 편이 좋습니다.
 
 백업 파일과 비공개 소스는 이 저장소에 포함하지 않습니다.
+
+## 게시된 독립 문서
+
+- TIPA HR Contact Finder: https://jinokim94.github.io/userapi_extension/PrivacyPolicy/
+- 원본: `jinokim94/userapi_extension`, `browser_extensions/userapi_extension/PRIVACY_POLICY.md`
+- 원본 blob SHA: `6159c5b25094b5908ddbb3a49e38df8ea6806ae2`
+- 원문을 그대로 옮긴 스냅샷입니다. 원본 변경 시 이 페이지도 별도로 갱신해야 합니다.
+- 메인페이지에 링크를 추가하지 않고 직접 URL로 접근하도록 게시했습니다.
