@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>TIPA HR Contact Finder 개인정보처리방침</title>
+  <title>HR Contact Finder 개인정보처리방침</title>
   <link rel="canonical" href="https://jinokim94.github.io/userapi_extension/PrivacyPolicy/">
   <link rel="stylesheet" href="../../style.css">
   <style>
@@ -18,11 +18,11 @@
   <a class="skip" href="#main">본문으로 이동</a>
   <header><a class="brand" href="../../">jinokim94<span> / personal site</span></a></header>
   <main id="main" class="document policy">
-    <h1>TIPA HR Contact Finder 개인정보처리방침</h1>
+    <h1>HR Contact Finder 개인정보처리방침</h1>
     <p>시행일: 2026년 11월 9일</p>
-    <p>적용 대상: TIPA HR Contact Finder Chrome 확장 프로그램 사용자 배포판</p>
+    <p>적용 대상: HR Contact Finder Chrome 확장 프로그램 사용자 배포판</p>
     <h2>1. 운영 주체와 적용 범위</h2>
-    <p>TIPA HR Contact Finder는 개인 개발자 KimJinHyuk이 개발·운영하는 개인 개발 프로젝트입니다. 기관 내부 시스템에 접근할 수 있는 사용자가 업무에 필요한 구성원 연락처, 조직도 및 복무정보를 조회하도록 지원합니다.</p>
+    <p>HR Contact Finder는 개인 개발자 KimJinHyuk이 개발·운영하는 개인 개발 프로젝트입니다. 기관 내부 시스템에 접근할 수 있는 사용자가 업무에 필요한 구성원 연락처, 조직도 및 복무정보를 조회하도록 지원합니다.</p>
     <p>이 방침은 확장 프로그램이 처리하는 정보의 항목, 목적, 저장·전송 방식 및 삭제 방법을 설명합니다. 기관 HR API·ERP·그룹웨어의 원본 데이터 운영과 서버 로그 관리에는 해당 기관 시스템의 정책이 적용됩니다. 확장 프로그램의 설치나 사용은 기관 시스템 또는 개인정보에 대한 추가 접근·이용 권한을 부여하지 않습니다.</p>
     <h2>2. 처리하는 정보와 이용 목적</h2>
     <h3>구성원 및 부서 정보</h3>
@@ -61,8 +61,8 @@
     <p>기능 수행 시 다음과 같이 기관 시스템과 통신합니다.</p>
     <ul>
     <li>HR API: 설정된 API 서버로 인증정보와 조회 파라미터를 전송하고 구성원·부서 정보를 수신합니다.</li>
-    <li>ERP: https://erp.tipa.or.kr/에 직원·부서·기간 등의 조회 조건을 전송합니다. 해당 사이트의 기존 인증 세션을 사용합니다.</li>
-    <li>그룹웨어: https://gw.tipa.or.kr/과 조직도 표시 및 관련 사용자·인증값을 이용한 화면 연동을 수행합니다.</li>
+    <li>ERP: 기관 ERP 시스템에 직원·부서·기간 등의 조회 조건을 전송합니다. 해당 사이트의 기존 인증 세션을 사용합니다.</li>
+    <li>그룹웨어: 기관 그룹웨어와 조직도 표시 및 관련 사용자·인증값을 이용한 화면 연동을 수행합니다.</li>
     </ul>
     <p>개발자가 별도로 운영하는 수집·분석 서버에 연락처, 복무정보, 검색기록 또는 인증정보를 업로드하는 기능은 없습니다. 기관 시스템이 요청 과정에서 생성하는 접속·처리 로그는 해당 시스템의 관리 범위입니다.</p>
     <h2>4. 제3자 제공과 목적 외 이용</h2>
@@ -86,7 +86,7 @@
     <li>alarms: 설정된 일정에 따른 연락처 갱신</li>
     <li>tabs: ERP 탭 확인·열기·이동 및 로딩 확인</li>
     <li>scripting: ERP·그룹웨어 페이지에서 조회와 표시 조정을 위한 연동 함수 실행</li>
-    <li>호스트 권한: 사용자 배포판의 API 연결 설정에서 추출한 HTTP(S) 호스트, https://erp.tipa.or.kr/* 및 https://gw.tipa.or.kr/*로 제한</li>
+    <li>호스트 권한: 사용자 배포판의 API 연결 설정에서 추출한 HTTP(S) 호스트와 기관 ERP·그룹웨어 호스트로 제한</li>
     </ul>
     <p>기관 ERP와 그룹웨어는 HTTPS로 연결합니다. HR API의 통신 프로토콜은 배포 설정의 주소에 따르며, 패키징 도구는 HTTP와 HTTPS 주소를 모두 허용합니다. 호스트 권한은 Chrome의 처리 방식에 따라 해당 호스트 단위로 부여되며 경로·포트에 따른 세부 접근 제한을 보장하지 않습니다.</p>
     <p>로컬 저장소와 내보낸 파일에 확장 프로그램이 별도의 암호화를 적용하지는 않습니다. 사용자 배포판의 API Key 인코딩은 분석을 통한 복원을 막는 비밀 보관 수단이 아닙니다. 배포 파일·백업·사용 기기는 기관의 접근 통제와 정보 관리 기준에 따라 관리해야 합니다.</p>
@@ -99,7 +99,7 @@
     <li>운영 및 개발: 개인 개발자 KimJinHyuk (개인 개발 프로젝트)</li>
     <li>개인정보 관련 문의: 개발자에게 직접 문의 (<a href="mailto:k94jino@gmail.com">k94jino@gmail.com</a>)</li>
     </ul>
-    <p>문의 시 연락 가능한 회신 주소와 요청 내용을 알려주세요. API Key, 비밀번호, 전체 연락처 데이터 또는 복무 상세정보를 이메일에 첨부하지 않도록 해주세요. 이메일로 전달한 문의 내용은 문의 확인과 회신을 위해 이용하며, 메일 보관·삭제에는 사용 중인 기관 메일 시스템의 정책도 적용됩니다.</p>
+    <p>문의 시 연락 가능한 회신 주소와 요청 내용을 알려주세요. API Key, 비밀번호, 전체 연락처 데이터 또는 복무 상세정보를 이메일에 첨부하지 않도록 해주세요. 이메일로 전달한 문의 내용은 문의 확인과 회신을 위해 이용하며, 메일 보관·삭제에는 이용하는 이메일 서비스의 정책도 적용됩니다.</p>
     <h2>10. 방침의 변경</h2>
     <p>처리 목적·항목·통신 대상·보관 방식 등 개인정보 처리 내용이 변경되는 경우 이 방침과 Chrome 웹 스토어 공개 내용을 함께 갱신합니다. 변경된 방침은 확장 프로그램 옵션 페이지와 게시된 개인정보처리방침 문서에서 확인할 수 있으며, 문서에 시행일을 표시합니다.</p>
     <p class="source"><a href="PRIVACY_POLICY.md">개인정보처리방침 Markdown 보기</a></p>
